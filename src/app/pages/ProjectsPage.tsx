@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { GoldDivider } from "../components/ui/GoldDivider";
 
-type ProjectCategory = "All" | "Residential" | "Commercial" | "Services" | "Interiors";
+type ProjectCategory = "All" | "Residential" | "Commercial" | "Interiors" | "Services";
 
 const projects = [
   {
@@ -85,13 +85,13 @@ const projects = [
     featured: false,
   },
   {
-    id: 10,
-    title: "Bari Khan Residency",
+    id: 119,
+    title: "Mariyam Enclave",
     category: "Residential",
-    location: "Rein Bazar, Hyderabad",
-    year: "2016",
-    area: "3000 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Bari Khan Residency.png",
+    location: "Santosh Nagar, Hyderabad",
+    year: "2012",
+    area: "13,200 sq ft",
+    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Construction12.png",
     featured: false,
   },
   {
@@ -124,11 +124,101 @@ const projects = [
     img: "/J4 Builders and Developers/J4 Builders and Developers site images/Commercial-2.png",
     featured: false,
   },
+  {
+    id: 13,
+    title: "Bed Room",
+    category: "Interiors",
+    location: "Hyderabad",
+    year: "2024",
+    area: "1200 sq ft",
+    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-1.jpeg",
+    featured: false,
+  },
+  {
+    id: 14,
+    title: "Bed Room",
+    category: "Interiors",
+    location: "Hyderabad",
+    year: "2024",
+    area: "1200 sq ft",
+    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-2.jpeg",
+    featured: false,
+  },
+  {
+    id: 15,
+    title: "Bed Room",
+    category: "Interiors",
+    location: "Hyderabad",
+    year: "2024",
+    area: "1200 sq ft",
+    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-3.jpeg",
+    featured: false,
+  },
+  {
+    id: 16,
+    title: "Kitchen",
+    category: "Interiors",
+    location: "Hyderabad",
+    year: "2024",
+    area: "1200 sq ft",
+    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-4.jpeg",
+    featured: false,
+  },
+  {
+    id: 161,
+    title: "Kitchen",
+    category: "Interiors",
+    location: "Hyderabad",
+    year: "2024",
+    area: "1200 sq ft",
+    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors(kitchen).jpeg",
+    featured: false,
+  },
+  {
+    id: 17,
+    title: "Kitchen",
+    category: "Interiors",
+    location: "Hyderabad",
+    year: "2024",
+    area: "1200 sq ft",
+    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-5(kitchen).jpeg",
+    featured: false,
+  },
+  {
+    id: 18,
+    title: "Living Room",
+    category: "Interiors",
+    location: "Hyderabad",
+    year: "2024",
+    area: "1200 sq ft",
+    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-6.jpeg",
+    featured: false,
+  },
+  {
+    id: 19,
+    title: "Living Room",
+    category: "Interiors",
+    location: "Hyderabad",
+    year: "2024",
+    area: "1200 sq ft",
+    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-7.jpeg",
+    featured: false,
+  },
+  {
+    id: 20,
+    title: "Drawing Room",
+    category: "Interiors",
+    location: "Hyderabad",
+    year: "2024",
+    area: "1200 sq ft",
+    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-8.jpeg",
+    featured: false,
+  },
 ];
 
 export function ProjectsPage() {
   const [filter, setFilter] = useState<ProjectCategory>("All");
-  const categories: ProjectCategory[] = ["All", "Residential", "Commercial", "Services", "Interiors"];
+  const categories: ProjectCategory[] = ["All", "Residential", "Commercial", "Interiors", "Services"];
 
   const filtered = filter === "All" ? projects : projects.filter(p => p.category === filter);
 
