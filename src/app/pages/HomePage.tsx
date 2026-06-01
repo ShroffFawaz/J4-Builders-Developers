@@ -14,13 +14,13 @@ export function HomePage({ navigate }: { navigate: (p: Page) => void }) {
       number: "01",
       title: "Residential Construction",
       desc: "Bespoke homes designed for those who demand nothing less than the finest craftsmanship and enduring quality.",
-      img: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&h=400&fit=crop&auto=format",
+      img: "/J4 Builders and Developers/J4 Builders and Developers site images/Aziz Residency.jpeg",
     },
     {
       number: "02",
       title: "Commercial Development",
       desc: "Purpose-built commercial spaces that balance architectural ambition with functional excellence.",
-      img: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&h=400&fit=crop&auto=format",
+      img: "/J4 Builders and Developers/J4 Builders and Developers site images/Commercial.png",
     },
     {
       number: "03",
