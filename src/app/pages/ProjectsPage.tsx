@@ -214,6 +214,33 @@ const projects = [
     img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-8.jpeg",
     featured: false,
   },
+  {
+    id: 21,
+    title: "Designing & Planning Services",
+    category: "Services",
+    location: "Any location in Telangana",
+    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Design and Plannings.png",
+    description: "Transforming ideas into practical, buildable plans through detailed design, space planning, and project development.",
+    featured: false,
+  },
+  {
+    id: 22,
+    title: "Structural & Architectural Design",
+    category: "Services",
+    location: "Any location in Telangana",
+    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Structual Design.png",
+    description: "Delivering architectural creativity and structural integrity through professionally engineered design solutions.",
+    featured: false,
+  },
+  {
+    id: 23,
+    title: "Construction and Permission Service",
+    category: "Services",
+    location: "Any location in Telangana",
+    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Construction and Premisson.png",
+    description: "Managing approvals, permissions, and construction execution to ensure a smooth project delivery process.",
+    featured: false,
+  }
 ];
 
 export function ProjectsPage() {
@@ -271,13 +298,21 @@ export function ProjectsPage() {
               </div>
               <div className="p-6 border-t border-border group-hover:bg-card transition-colors duration-300">
                 <h3 className="font-['Playfair_Display'] text-xl font-600 text-foreground mb-2">{project.title}</h3>
-                <div className="flex items-center gap-4 mt-3">
-                  <span className="font-['DM_Mono'] text-xs text-muted-foreground tracking-wider">{project.location}</span>
-                </div>
-                <div className="flex justify-between mt-3 pt-3 border-t border-border">
-                  <span className="font-['DM_Mono'] text-xs text-muted-foreground">{project.year}</span>
-                  <span className="font-['DM_Mono'] text-xs text-primary">{project.area}</span>
-                </div>
+                {'description' in project && project.description ? (
+                  <p className="font-['DM_Sans'] text-sm text-muted-foreground leading-relaxed mt-2">
+                    {project.description}
+                  </p>
+                ) : (
+                  <>
+                    <div className="flex items-center gap-4 mt-3">
+                      <span className="font-['DM_Mono'] text-xs text-muted-foreground tracking-wider">{project.location}</span>
+                    </div>
+                    <div className="flex justify-between mt-3 pt-3 border-t border-border">
+                      <span className="font-['DM_Mono'] text-xs text-muted-foreground">{project.year}</span>
+                      <span className="font-['DM_Mono'] text-xs text-primary">{project.area}</span>
+                    </div>
+                  </>
+                )}
               </div>
             </div>
           ))}
