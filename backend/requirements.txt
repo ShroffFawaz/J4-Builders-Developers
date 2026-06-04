@@ -3,3 +3,4 @@ uvicorn[standard]
 SQLAlchemy
 python-dotenv
 psycopg2-binary
+python-multipart
