@@ -7,6 +7,7 @@ export function ContactPage() {
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const apiBaseUrl = import.meta.env.VITE_API_BASE_URL ?? "http://127.0.0.1:8000";
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -23,7 +24,7 @@ export function ContactPage() {
       formData.append("project_type", form.service);
       formData.append("project_description", form.message);
 
-      const response = await axios.post("http://127.0.0.1:8000/contact/contact", formData);
+      const response = await axios.post(`${apiBaseUrl}/contact/contact`, formData);
       setSent(true);
       if (response.data?.whatsapp_url) {
         window.open(response.data.whatsapp_url, "_blank");

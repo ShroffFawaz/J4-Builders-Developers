@@ -1,12 +1,17 @@
+import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contact import router as contact_router
 
 app = FastAPI(title="J4 Builders and Developers")
 
-import os 
+def get_allowed_origins() -> list[str]:
+    raw = os.getenv("ALLOW_ORGINS") or os.getenv("ALLOW_ORIGINS") or ""
+    if not raw.strip():
+        return ["http://localhost:5173"]
+    return [origin.strip() for origin in raw.split(",") if origin.strip()]
 
-ALLOW_ORGINS = os.getenv("ALLOW_ORGINS").split(",")
+ALLOW_ORGINS = get_allowed_origins()
 
 app.add_middleware(
     CORSMiddleware,
