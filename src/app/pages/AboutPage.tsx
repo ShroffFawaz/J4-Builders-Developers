@@ -20,7 +20,7 @@ export function AboutPage() {
       {/* Hero */}
       <section className="relative h-80 flex items-end overflow-hidden bg-card">
         <img
-          src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&h=600&fit=crop&auto=format"
+          src="/J4 Builders and Developers/J4 Builders and Developers site images/aboutpageMain.png"
           alt="J4 Builders team at work"
           className="absolute inset-0 w-full h-full object-cover opacity-30"
         />
@@ -34,7 +34,7 @@ export function AboutPage() {
       {/* Story */}
       <section className="max-w-7xl mx-auto px-6 lg:px-12 py-24 grid lg:grid-cols-2 gap-16 items-center">
         <div>
-          <p className="font-['DM_Mono'] text-xs tracking-[0.4em] text-primary uppercase mb-6">Since 2006</p>
+          <p className="font-['DM_Mono'] text-xs tracking-[0.4em] text-primary uppercase mb-6">Since 2001</p>
           <h2 className="font-['Playfair_Display'] text-4xl font-600 text-foreground mb-6 leading-tight">
             Crafted from<br />the Ground Up
           </h2>
@@ -48,7 +48,7 @@ export function AboutPage() {
         </div>
         <div className="relative">
           <img
-            src="https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?w=700&h=850&fit=crop&auto=format"
+            src="/J4 Builders and Developers/J4 Builders and Developers site images/aboutpage-subimage.png"
             alt="J4 Builders construction quality"
             className="w-full aspect-[4/5] object-cover"
           />
