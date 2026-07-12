@@ -52,7 +52,7 @@ async def create_contact(
         f"*Project Brief:* {contact.project_description}"
     )
     encoded_msg = urllib.parse.quote(msg)
-    contact.whatsapp_url = f"https://wa.me/918499064599?text={encoded_msg}"
+    contact.whatsapp_url = f"https://wa.me/918297126392?text={encoded_msg}"
     
     return contact
 
