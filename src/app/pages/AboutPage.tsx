@@ -10,9 +10,9 @@ export function AboutPage() {
   ];
 
   const team = [
-    { name: "Mohammed Abdul Jawad", role: "Founder & Managing Director", img: "/J4 Builders and Developers/jawad.png" },
-    { name: "Shaik Mushtaq Ahmed", role: "Chief Architect and Interior Designer", img: "/J4 Builders and Developers/ahmed.jpeg" },
-    { name: "Sayed Abdul Qadeer", role: "Head of Engineering and Structural Design Engineer", img: "/J4 Builders and Developers/qadeer.jpeg" },
+    { name: "Mohammed Abdul Jawad", role: "Founder & Managing Director", img: "/j4-assets/jawad.png" },
+    { name: "Shaik Mushtaq Ahmed", role: "Chief Architect and Interior Designer", img: "/j4-assets/ahmed.jpeg" },
+    { name: "Sayed Abdul Qadeer", role: "Head of Engineering and Structural Design Engineer", img: "/j4-assets/qadeer.jpeg" },
   ];
 
   return (
@@ -20,7 +20,7 @@ export function AboutPage() {
       {/* Hero */}
       <section className="relative h-80 flex items-end overflow-hidden bg-card">
         <img
-          src="/J4 Builders and Developers/J4 Builders and Developers site images/aboutpageMain.png"
+          src="/j4-assets/site-images/aboutpageMain.png"
           alt="J4 Builders team at work"
           className="absolute inset-0 w-full h-full object-cover opacity-30"
         />
@@ -48,7 +48,7 @@ export function AboutPage() {
         </div>
         <div className="relative">
           <img
-            src="/J4 Builders and Developers/J4 Builders and Developers site images/aboutpage-subimage.png"
+            src="/j4-assets/site-images/aboutpage-subimage.png"
             alt="J4 Builders construction quality"
             className="w-full aspect-[4/5] object-cover"
           />

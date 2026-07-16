@@ -11,7 +11,7 @@ const projects = [
     location: "GM Nagar, Back Side of owaisi hospital, Hyderabad",
     year: "2024",
     area: "22,464 sqft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Bari Khan Residency.png",
+    img: "/j4-assets/site-images/Bari-Khan-Residency.png",
     featured: true,
   },
   {
@@ -21,7 +21,7 @@ const projects = [
     location: "Yakutpura Colony, Rein Bazar, Hyderabad",
     year: "2022",
     area: "9,000 sqft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Aziz Residency.jpeg",
+    img: "/j4-assets/site-images/Aziz-Residency.jpeg",
     featured: true,
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     location: "Santosh Nagar, Hyderabad",
     year: "2020",
     area: "20,475 sqft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Ali Residency.png",
+    img: "/j4-assets/site-images/Ali-Residency.png",
     featured: false,
   },
   {
@@ -41,7 +41,7 @@ const projects = [
     location: "Santosh Nagar, Hyderabad",
     year: "2019",
     area: "13,200 sqft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Mariya Residency.png",
+    img: "/j4-assets/site-images/Mariya-Residency.png",
     featured: false,
   },
   {
@@ -51,7 +51,7 @@ const projects = [
     location: "Santosh Nagar, Hyderabad",
     year: "2026",
     area: "15,768 sqft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Sana Residency.jpeg",
+    img: "/j4-assets/site-images/Sana-Residency.jpeg",
     featured: false,
   },
   {
@@ -61,7 +61,7 @@ const projects = [
     location: "Rein Bazar Madannapet, Hyderabad",
     year: "2015",
     area: "19,000 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Taiba Residency.jpeg",
+    img: "/j4-assets/site-images/Taiba-Residency.jpeg",
     featured: false,
   },
   {
@@ -71,7 +71,7 @@ const projects = [
     location: "Imam bada Yakutpura, Hyderabad",
     year: "2022",
     area: "3654 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/G+2 Building.png",
+    img: "/j4-assets/site-images/G2-Building.png",
     featured: false,
   },
   {
@@ -81,7 +81,7 @@ const projects = [
     location: "Rein Bazar, Hyderabad",
     year: "2021",
     area: "1200 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Duplex.png",
+    img: "/j4-assets/site-images/Duplex.png",
     featured: false,
   },
   {
@@ -91,7 +91,7 @@ const projects = [
     location: "Santosh Nagar, Hyderabad",
     year: "2012",
     area: "13,200 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Construction12.png",
+    img: "/j4-assets/site-images/Construction12.png",
     featured: false,
   },
   {
@@ -101,7 +101,7 @@ const projects = [
     location: "Hyderabad",
     year: "2018",
     area: "1200 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Commercial-1.png",
+    img: "/j4-assets/site-images/Commercial-1.png",
     featured: false,
   },
   {
@@ -111,7 +111,7 @@ const projects = [
     location: "Hyderabad",
     year: "2017",
     area: "2500 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Commercial.png",
+    img: "/j4-assets/site-images/Commercial.png",
     featured: false,
   },
   {
@@ -121,7 +121,7 @@ const projects = [
     location: "Hyderabad",
     year: "2015",
     area: "1500 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Commercial-2.png",
+    img: "/j4-assets/site-images/Commercial-2.png",
     featured: false,
   },
   {
@@ -131,7 +131,7 @@ const projects = [
     location: "Hyderabad",
     year: "2024",
     area: "1200 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-1.jpeg",
+    img: "/j4-assets/site-images/Interiors-1.jpeg",
     featured: false,
   },
   {
@@ -141,7 +141,7 @@ const projects = [
     location: "Hyderabad",
     year: "2024",
     area: "1200 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-2.jpeg",
+    img: "/j4-assets/site-images/Interiors-2.jpeg",
     featured: false,
   },
   {
@@ -151,7 +151,7 @@ const projects = [
     location: "Hyderabad",
     year: "2024",
     area: "1200 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-3.jpeg",
+    img: "/j4-assets/site-images/Interiors-3.jpeg",
     featured: false,
   },
   {
@@ -161,7 +161,7 @@ const projects = [
     location: "Hyderabad",
     year: "2024",
     area: "1200 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-4.jpeg",
+    img: "/j4-assets/site-images/Interiors-4.jpeg",
     featured: false,
   },
   {
@@ -171,7 +171,7 @@ const projects = [
     location: "Hyderabad",
     year: "2024",
     area: "1200 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors(kitchen).jpeg",
+    img: "/j4-assets/site-images/Interiors-kitchen.jpeg",
     featured: false,
   },
   {
@@ -181,7 +181,7 @@ const projects = [
     location: "Hyderabad",
     year: "2024",
     area: "1200 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-5(kitchen).jpeg",
+    img: "/j4-assets/site-images/Interiors-5-kitchen.jpeg",
     featured: false,
   },
   {
@@ -191,7 +191,7 @@ const projects = [
     location: "Hyderabad",
     year: "2024",
     area: "1200 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-6.jpeg",
+    img: "/j4-assets/site-images/Interiors-6.jpeg",
     featured: false,
   },
   {
@@ -201,7 +201,7 @@ const projects = [
     location: "Hyderabad",
     year: "2024",
     area: "1200 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-7.jpeg",
+    img: "/j4-assets/site-images/Interiors-7.jpeg",
     featured: false,
   },
   {
@@ -211,7 +211,7 @@ const projects = [
     location: "Hyderabad",
     year: "2024",
     area: "1200 sq ft",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-8.jpeg",
+    img: "/j4-assets/site-images/Interiors-8.jpeg",
     featured: false,
   },
   {
@@ -219,7 +219,7 @@ const projects = [
     title: "Designing & Planning Services",
     category: "Services",
     location: "Any location in Telangana",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Design and Plannings.png",
+    img: "/j4-assets/site-images/Design-and-Plannings.png",
     description: "Transforming ideas into practical, buildable plans through detailed design, space planning, and project development.",
     featured: false,
   },
@@ -228,7 +228,7 @@ const projects = [
     title: "Structural & Architectural Design",
     category: "Services",
     location: "Any location in Telangana",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Structual Design.png",
+    img: "/j4-assets/site-images/Structual-Design.png",
     description: "Delivering architectural creativity and structural integrity through professionally engineered design solutions.",
     featured: false,
   },
@@ -237,7 +237,7 @@ const projects = [
     title: "Construction and Permission Service",
     category: "Services",
     location: "Any location in Telangana",
-    img: "/J4 Builders and Developers/J4 Builders and Developers site images/Construction and Premisson.png",
+    img: "/j4-assets/site-images/Construction-and-Premisson.png",
     description: "Managing approvals, permissions, and construction execution to ensure a smooth project delivery process.",
     featured: false,
   }

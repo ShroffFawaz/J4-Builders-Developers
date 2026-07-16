@@ -14,25 +14,25 @@ export function HomePage({ navigate }: { navigate: (p: Page) => void }) {
       number: "01",
       title: "Residential Construction",
       desc: "Bespoke homes designed for those who demand nothing less than the finest craftsmanship and enduring quality.",
-      img: "/J4 Builders and Developers/J4 Builders and Developers site images/Aziz Residency.jpeg",
+      img: "/j4-assets/site-images/Aziz-Residency.jpeg",
     },
     {
       number: "02",
       title: "Commercial Development",
       desc: "Purpose-built commercial spaces that balance architectural ambition with functional excellence.",
-      img: "/J4 Builders and Developers/J4 Builders and Developers site images/Commercial.png",
+      img: "/j4-assets/site-images/Commercial.png",
     },
     {
       number: "03",
       title: "Design-to-Delivery Construction Services",
       desc: "Integrated planning, structural engineering, construction execution, and approval services delivered with precision and seamless coordination.",
-      img: "/J4 Builders and Developers/J4 Builders and Developers site images/Design-to-Delivery Construction Services.png",
+      img: "/j4-assets/site-images/Design-to-Delivery-Construction-Services.png",
     },
     {
       number: "04",
       title: "Interiors",
       desc: "Luxury interior solutions that combine aesthetic elegance, spatial functionality, and meticulous execution.",
-      img: "/J4 Builders and Developers/J4 Builders and Developers site images/Interiors-homepage.png",
+      img: "/j4-assets/site-images/Interiors-homepage.png",
     },
   ];
 
@@ -42,7 +42,7 @@ export function HomePage({ navigate }: { navigate: (p: Page) => void }) {
       <section className="relative h-screen min-h-[700px] flex items-end">
         <div className="absolute inset-0 bg-[#0C0B09]">
           <img
-            src="/J4 Builders and Developers/J4 Builders and Developers site images/homeMain.png"
+            src="/j4-assets/site-images/homeMain.png"
             alt="J4 Builders construction site at dusk"
             className="w-full h-full object-cover opacity-40"
           />
