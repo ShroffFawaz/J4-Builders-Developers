@@ -7,7 +7,6 @@ export function ContactPage() {
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const apiBaseUrl = import.meta.env.VITE_API_BASE_URL ?? "http://127.0.0.1:8000";
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -24,6 +23,7 @@ export function ContactPage() {
       formData.append("project_type", form.service);
       formData.append("project_description", form.message);
 
+      const apiBaseUrl = import.meta.env.VITE_API_BASE_URL ?? "https://j4-backend-e0ck.onrender.com";
       const response = await axios.post(`${apiBaseUrl}/contact/contact`, formData);
       setSent(true);
       if (response.data?.whatsapp_url) {
@@ -32,11 +32,11 @@ export function ContactPage() {
     } catch (err: any) {
       console.error("Error submitting contact form:", err);
       const detail = err.response?.data?.detail;
-      const errorMessage = typeof detail === "string" 
-        ? detail 
+      const errorMessage = typeof detail === "string"
+        ? detail
         : Array.isArray(detail)
-        ? detail.map((d: any) => d.msg || JSON.stringify(d)).join(", ")
-        : "Failed to send message. Please verify your input and try again.";
+          ? detail.map((d: any) => d.msg || JSON.stringify(d)).join(", ")
+          : "Failed to send message. Please verify your input and try again.";
       setError(errorMessage);
     } finally {
       setLoading(false);
