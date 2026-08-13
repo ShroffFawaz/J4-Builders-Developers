@@ -10,7 +10,7 @@ export function AboutPage() {
   ];
 
   const team = [
-    { name: "Mohammed Abdul Jawad", role: "Founder & Managing Director", img: "/j4-assets/jawad.png" },
+    { name: "Mohammed Abdul Jawad", role: "Founder & Managing Director", img: "/j4-assets/jawad.jpeg" },
     { name: "Shaik Mushtaq Ahmed", role: "Chief Architect and Interior Designer", img: "/j4-assets/ahmed.jpeg" },
     { name: "Sayed Abdul Qadeer", role: "Head of Engineering and Structural Design Engineer", img: "/j4-assets/qadeer.jpeg" },
   ];

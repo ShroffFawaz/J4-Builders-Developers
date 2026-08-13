@@ -161,14 +161,14 @@ export function ContactPage() {
           <div>
             <p className="font-['DM_Mono'] text-[10px] tracking-[0.35em] text-primary uppercase mb-6">Direct Contact</p>
             <div className="space-y-5">
-              <a href="mailto:enquiries@j4builders.in" className="flex items-start gap-4 group">
+              <a href="mailto:[EMAIL_ADDRESS]" className="flex items-start gap-4 group">
                 <Mail size={16} className="text-primary mt-0.5 shrink-0" strokeWidth={1.5} />
                 <div>
                   <div className="font-['DM_Mono'] text-[10px] tracking-[0.2em] text-muted-foreground uppercase mb-1">Email</div>
-                  <div className="font-['DM_Sans'] text-sm text-foreground group-hover:text-primary transition-colors duration-300">enquiries@j4builders.in</div>
+                  <div className="font-['DM_Sans'] text-sm text-foreground group-hover:text-primary transition-colors duration-300">enquiries@j4buildersanddevelopers.com</div>
                 </div>
               </a>
-              <a href="tel:+914023547890" className="flex items-start gap-4 group">
+              <a href="tel:+914023547890" className="flex ite1ms-start gap-4 group">
                 <Phone size={16} className="text-primary mt-0.5 shrink-0" strokeWidth={1.5} />
                 <div>
                   <div className="font-['DM_Mono'] text-[10px] tracking-[0.2em] text-muted-foreground uppercase mb-1">Phone</div>

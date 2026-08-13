@@ -28,7 +28,7 @@ export function Footer({ navigate }: { navigate: (p: Page) => void }) {
         <div>
           <p className="font-['DM_Mono'] text-[10px] tracking-[0.3em] text-primary uppercase mb-6">Contact</p>
           <div className="space-y-2 font-['DM_Sans'] text-sm text-muted-foreground font-300">
-            <div>enquiries@j4builders.in</div>
+            <div>enquiries@j4buildersanddevelopers.com</div>
             <div>+91 82971 26392</div>
             <div className="text-xs leading-relaxed mt-4">MIG-H-27, Sai Ratna Arcade, New Santoshnagar<br />Santosh Nagar, Hyderabad, Telangana 500059</div>
           </div>
