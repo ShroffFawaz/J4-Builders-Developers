@@ -9,10 +9,16 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
+DEFAULT_ALLOWED_ORIGINS = [
+    "https://www.j4buildersanddevelopers.com",
+    "https://j4buildersanddevelopers.com",
+]
+
 def get_allowed_origins() -> list[str]:
     raw = os.getenv("ALLOW_ORGINS") or os.getenv("ALLOW_ORIGINS") or ""
     if not raw.strip():
-        return ["*"] # default to wildcard if empty, or can just use localhost
+        return DEFAULT_ALLOWED_ORIGINS
     return [origin.strip() for origin in raw.split(",") if origin.strip()]
 
 ALLOW_ORGINS = get_allowed_origins()
@@ -26,7 +32,7 @@ app.add_middleware(
 )  
 
 
-from database import engine, Base
+from database import engine, Base   
 import model # Ensure models are registered on Base
 
 Base.metadata.create_all(bind=engine)
